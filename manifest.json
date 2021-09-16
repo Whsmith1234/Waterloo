@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Waterloo",
+    "version": "0.1",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://checkin.uwaterloo.ca/*"
+          ],
+          "js": ["contentscript.js"]
+        }
+      ]
+  }
